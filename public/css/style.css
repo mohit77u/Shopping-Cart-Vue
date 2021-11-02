@@ -1,0 +1,152 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.table-footer {
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #fff;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border: 0 solid;
+  border-color: inherit;
+  padding: 20px 5px;
+}
+
+.total {
+  text-align: right;
+}
+
+.container {
+  max-width: 90%;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.navbar .cartbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.navbar .cartbtn .fas {
+  margin: 0 5px;
+}
+
+.alert {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000000;
+}
+
+.addtocartbtn {
+  background: #e56f67;
+  color: white;
+}
+
+.modal-backdrop.show {
+  z-index: 1000;
+}
+
+.modal {
+  top: 12%;
+}
+.modal .modal-header {
+  border-bottom: none;
+  padding: 0 40px;
+}
+.modal .modal-footer {
+  border-top: none;
+}
+.modal table {
+  width: 100%;
+}
+.modal table .btn-danger {
+  padding: 8px 10px;
+  background: #e56f67;
+}
+.modal table th {
+  background: #fff4f4;
+}
+.modal table img {
+  max-width: 60px;
+}
+
+.modal-dialog {
+  max-width: 95%;
+}
+
+.products .card {
+  transition: 0.5s ease-in-out;
+  margin: 20px 0;
+  min-height: 320px;
+}
+.products .card .card-text {
+  color: #e56f67;
+  font-size: 25px;
+}
+.products .card:hover img {
+  transform: scale(1.12, 1.12);
+}
+.products .card:hover .products-bottom-content {
+  height: 60%;
+}
+.products .card .products-bottom-content {
+  z-index: 10000000;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  background: white;
+  width: 100%;
+  height: 0;
+  top: 95%;
+  padding: 0 20px;
+  transition: 0.8s all;
+}
+.products .card img {
+  max-width: 200px;
+  transition: 0.4s ease-in-out;
+}
+
+.breadcum {
+  background: #e56f67;
+  color: white;
+  padding: 50px 0;
+}
+
+.product-template {
+  padding: 50px 0;
+}
+.product-template img {
+  max-width: 500px;
+}
+.product-template .fas {
+  color: black;
+}
+.product-template .carousel-indicators {
+  bottom: -100px;
+}
+.product-template .carousel-indicators [data-mdb-target] {
+  width: 100%;
+  height: 100px;
+  opacity: 1;
+  border: 1px solid #e56f67;
+}
+.product-template .carousel-indicators [data-mdb-target] img {
+  max-width: 100px;
+}
+.product-template .prodcuts-details {
+  padding-top: 150px;
+}/*# sourceMappingURL=style.css.map */
